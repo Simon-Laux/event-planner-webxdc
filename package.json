@@ -1,0 +1,34 @@
+{
+  "name": "webxdc-scheduler",
+  "description": "A collaborative tool for planning events, allowing users to propose and vote on dates and times.",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "lucide-react": "^0.344.0",
+    "luxon": "^3.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "yjs": "^13.6.12"
+  },
+  "devDependencies": {
+    "@simon-laux/webxdc-vite-plugins": "^0.4.1",
+    "@types/luxon": "^3.4.2",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "webxdc-types": "^1.0.1"
+  }
+}
