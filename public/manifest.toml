@@ -1,2 +1,4 @@
 name = "Event Planner"
 description = "A collaborative tool for planning events, allowing users to propose and vote on dates and times."
+
+source_code_url = "https://github.com/Simon-Laux/event-planner-webxdc"
